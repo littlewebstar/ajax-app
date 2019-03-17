@@ -1,0 +1,52 @@
+body {
+	font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+	color: #c3a244;
+	margin-top: 120px;
+}
+
+.container {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.txt-sehir {
+	padding: 5px 10px;
+}
+
+.txt-sehir:focus {
+	border: 2px solid #6d4e4e;
+	outline: none;
+}
+
+.btn-gonder {
+	padding: 5px;
+	border: 2px solid #ccc;
+}
+
+.btn-gonder:hover {
+	border-color: #000;
+	cursor: pointer;
+}
+
+.btn-gonder:focus {
+	outline: none;
+}
+.sonuc-container {
+	margin-top: 50px;
+}
+
+.sonuc {
+  height: 80px;
+  width: 80px;
+  background-color: #40d11a;
+  display: block;
+  margin: 0 auto;
+  border-radius: 40px;
+  color: white;
+  line-height: 80px;
+  font-size: 24px;
+  font-weight: bold;
+}
